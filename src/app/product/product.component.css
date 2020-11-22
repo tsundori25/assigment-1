@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: arial;
+}
+.main{    
+    margin: 2%;
+}
+.card{
+    width: 20%;
+    display: inline-block;
+    border-radius: 5px; 
+    margin: 2%;
+}
+.image img{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.des{
+    padding: 3px;
+    text-align: center;
+    padding-top: 10px;
+}
+button{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+    transition: .3s;
+    cursor: pointer;
+}
