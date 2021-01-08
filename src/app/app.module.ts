@@ -11,6 +11,12 @@ import { HomeComponent } from './home/home.component';
 import { ProductComponent } from './product/product.component';
 import { CarouselComponent } from './home/carousel/carousel.component';
 import { AuthInterceptor } from './shared/interceptor';
+import { AdminComponent } from './admin/admin.component';
+import { DasboardComponent } from './admin/dasboard/dasboard.component';
+import { PanitiaComponent } from './admin/dasboard/panitia/panitia.component';
+import { PesertaComponent } from './admin/dasboard/peserta/peserta.component';
+import { LurahComponent } from './admin/dasboard/lurah/lurah.component';
+import { AsComponent } from './as/as.component';
 
 
 @NgModule({
@@ -20,6 +26,12 @@ import { AuthInterceptor } from './shared/interceptor';
     HomeComponent,
     ProductComponent,
     CarouselComponent,
+    AdminComponent,
+    DasboardComponent,
+    PanitiaComponent,
+    PesertaComponent,
+    LurahComponent,
+    AsComponent,
   ],
   imports: [
     BrowserModule,
